@@ -13,6 +13,8 @@
 		8D20ED4B253F8C5100BDA1BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20ED36253F8C4F00BDA1BC /* ContentView.swift */; };
 		8D20ED4C253F8C5100BDA1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D20ED37253F8C5100BDA1BC /* Assets.xcassets */; };
 		8D20ED4D253F8C5100BDA1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D20ED37253F8C5100BDA1BC /* Assets.xcassets */; };
+		8D20ED59253F959100BDA1BC /* mastermotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20ED58253F959100BDA1BC /* mastermotion.swift */; };
+		8D20ED5A253F959100BDA1BC /* mastermotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20ED58253F959100BDA1BC /* mastermotion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,7 @@
 		8D20ED44253F8C5100BDA1BC /* Sensor Capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sensor Capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D20ED46253F8C5100BDA1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D20ED47253F8C5100BDA1BC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8D20ED58253F959100BDA1BC /* mastermotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mastermotion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 		8D20ED2F253F8C4F00BDA1BC = {
 			isa = PBXGroup;
 			children = (
+				8D20ED58253F959100BDA1BC /* mastermotion.swift */,
 				8D20ED34253F8C4F00BDA1BC /* Shared */,
 				8D20ED3E253F8C5100BDA1BC /* iOS */,
 				8D20ED45253F8C5100BDA1BC /* macOS */,
@@ -189,6 +193,7 @@
 			files = (
 				8D20ED4A253F8C5100BDA1BC /* ContentView.swift in Sources */,
 				8D20ED48253F8C5100BDA1BC /* Sensor_CaptureApp.swift in Sources */,
+				8D20ED59253F959100BDA1BC /* mastermotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +203,7 @@
 			files = (
 				8D20ED4B253F8C5100BDA1BC /* ContentView.swift in Sources */,
 				8D20ED49253F8C5100BDA1BC /* Sensor_CaptureApp.swift in Sources */,
+				8D20ED5A253F959100BDA1BC /* mastermotion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

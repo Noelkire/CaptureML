@@ -11,7 +11,7 @@ import SwiftUI
 struct Sensor_CaptureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(motion: MotionManager())
         }
     }
 }
